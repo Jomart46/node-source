@@ -1,0 +1,107 @@
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background: linear-gradient(40deg, #647685, #65cc60) !important;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Style the main content container */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the card */
+.card {
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: #007bff;
+    background: linear-gradient(40deg, #647685, #65cc60) !important;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Style the form elements */
+form input[type="text"],
+form input[type="date"],
+form select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2bc757;
+    border-radius: 3px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+/* Style the Save button */
+form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style the modal */
+    
+
+/* Style the table */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    
+    
+}
+
+table th, table td {
+    padding: 80px;
+    text-align: center;
+    
+}
+
+/* Style the search input */
+.input-group {
+    margin-bottom: 20px;
+}
+
+/* Add more styles as needed */
+.content-container {
+    display: flex; /* Use flex display for side-by-side alignment */
+    background: linear-gradient(40deg, #647685, #65cc60) !important;
+}
+
+.form-container, .table-container {
+    flex: 1; /* Distribute available space evenly between form and table */
+    padding: 10px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in total width */
+}
+
+.form-container {
+    margin-right: 10px; /* Add margin for spacing between form and table */
+}
